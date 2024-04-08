@@ -6,7 +6,7 @@ Data-efficient generative models for molecular and crystal structures
 
 Clone this repository and change directory:
 ```
-git clone ssh://git@gitlab.tuwien.ac.at:822/e165-03-1_theoretische_materialchemie/logan.git
+git clone git@github.com:Madsen-s-research-group/logan.git
 cd logan
 ```
 To use the LoGAN, you will need a JAX installation. We recommend to install the package inside a conda environment (or any other virtual environment of your choice):
