@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "LoGAN"
+authors = [
+    { name = "Péter Kovács"},
+    { name = "Esther Heid", email = "esther.heid@tuwien.ac.at" },
+    { name = "Georg K. H. Madsen", email = "georg.madsen@tuwien.ac.at" }
+]
+description = "Data-efficient generative models for molecular and crystal structures"
+license = { text = "MIT License" }
+requires-python = ">=3.8"
+dependencies = [
+    "ase",
+    "flax",
+    "jax",
+    "jaxlib",
+    "numpy",
+    "optax",
+    "rdkit",
+    "scipy<=1.12",
+    "scikit-learn",
+]
+readme = "README.md"
+dynamic = ["version"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.dynamic]
+version = { attr = "logan.__version__" }
