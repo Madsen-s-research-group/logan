@@ -2,6 +2,8 @@
 
 Data-efficient generative models for molecular and crystal structures
 
+This repository accompanies the manuscript [LoGAN: Local generative adversarial network for novel structure prediction](https://doi.org/10.26434/chemrxiv-2024-vf9l1).
+
 ## Installation
 
 Clone this repository and change directory:
